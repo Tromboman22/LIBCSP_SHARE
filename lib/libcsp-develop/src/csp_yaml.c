@@ -1,3 +1,7 @@
+#if (LIBYAML_FOUND) //remove this if yaml is included in the project
+//  *****************************************************************************	
+//  * **File:** csp/csp_yaml.c
+
 
 #include <csp/csp_yaml.h>
 #include <csp/csp_iflist.h>
@@ -293,3 +297,5 @@ void csp_yaml_init(char * filename, unsigned int * dfl_addr) {
 	free(data.promisc);
 
 }
+
+#endif
