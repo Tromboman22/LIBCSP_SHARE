@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_bridge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_conn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_dedup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_id.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_iflist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_port.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_qfifo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_route.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_service_handler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_services.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_sfp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_hex_dump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_promisc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_rdp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_rdp_queue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\crypto\csp_hmac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\crypto\csp_sha1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\drivers\usart\usart_kiss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\interfaces\csp_if_lo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\interfaces\csp_if_kiss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\interfaces\csp_if_i2c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\interfaces\csp_if_tun.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\interfaces\csp_if_can.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\interfaces\csp_if_can_pbuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\interfaces\csp_if_eth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\interfaces\csp_if_eth_pbuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4950E6CF-2A81-3F7F-8E62-0487B05AD257}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

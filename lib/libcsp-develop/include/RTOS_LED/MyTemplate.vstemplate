@@ -1,0 +1,237 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>RTOS_LED</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CandCPP</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>RTOS_LED</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="RTOS_LED.cproj" File="RTOS_LED.cproj" ReplaceParameters="true">
+      <Folder Name="libm" TargetFolderName="libm" />
+      <Folder Name="Config" TargetFolderName="Config">
+        <ProjectItem ReplaceParameters="true" TargetFileName="FreeRTOSConfig.h">FreeRTOSConfig.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hpl_pmc_config.h">hpl_pmc_config.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hpl_systick_ARMv7_config.h">hpl_systick_ARMv7_config.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hpl_tc_config.h">hpl_tc_config.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hpl_wdt_config.h">hpl_wdt_config.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hpl_xdmac_config.h">hpl_xdmac_config.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="peripheral_clk_config.h">peripheral_clk_config.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RTE_Components.h">RTE_Components.h</ProjectItem>
+      </Folder>
+      <Folder Name="Device_Startup" TargetFolderName="Device_Startup">
+        <ProjectItem ReplaceParameters="false" TargetFileName="samv71q21b_flash.ld">samv71q21b_flash.ld</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="samv71q21b_sram.ld">samv71q21b_sram.ld</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="startup_samv71q21b.c">startup_samv71q21b.c</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="system_samv71q21b.c">system_samv71q21b.c</ProjectItem>
+      </Folder>
+      <Folder Name="documentation" TargetFolderName="documentation">
+        <ProjectItem ReplaceParameters="false" TargetFileName="RTOS.rst">RTOS.rst</ProjectItem>
+      </Folder>
+      <Folder Name="examples" TargetFolderName="examples">
+        <ProjectItem ReplaceParameters="true" TargetFileName="driver_examples.c">driver_examples.c</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="driver_examples.h">driver_examples.h</ProjectItem>
+      </Folder>
+      <Folder Name="hal" TargetFolderName="hal">
+        <Folder Name="documentation" TargetFolderName="documentation">
+          <ProjectItem ReplaceParameters="false" TargetFileName="timer.rst">timer.rst</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="wdt.rst">wdt.rst</ProjectItem>
+        </Folder>
+        <Folder Name="include" TargetFolderName="include">
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_atomic.h">hal_atomic.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_delay.h">hal_delay.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_gpio.h">hal_gpio.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_init.h">hal_init.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_io.h">hal_io.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_sleep.h">hal_sleep.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_timer.h">hal_timer.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_wdt.h">hal_wdt.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_core.h">hpl_core.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_delay.h">hpl_delay.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_dma.h">hpl_dma.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_ext_irq.h">hpl_ext_irq.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_gpio.h">hpl_gpio.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_init.h">hpl_init.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_irq.h">hpl_irq.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_missing_features.h">hpl_missing_features.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_pwm.h">hpl_pwm.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_reset.h">hpl_reset.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_sleep.h">hpl_sleep.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_time_measure.h">hpl_time_measure.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_timer.h">hpl_timer.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_wdt.h">hpl_wdt.h</ProjectItem>
+        </Folder>
+        <Folder Name="src" TargetFolderName="src">
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_atomic.c">hal_atomic.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_delay.c">hal_delay.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_gpio.c">hal_gpio.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_init.c">hal_init.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_io.c">hal_io.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_sleep.c">hal_sleep.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_timer.c">hal_timer.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_wdt.c">hal_wdt.c</ProjectItem>
+        </Folder>
+        <Folder Name="utils" TargetFolderName="utils">
+          <Folder Name="include" TargetFolderName="include">
+            <ProjectItem ReplaceParameters="true" TargetFileName="compiler.h">compiler.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="err_codes.h">err_codes.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="events.h">events.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="parts.h">parts.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="utils.h">utils.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="utils_assert.h">utils_assert.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="utils_event.h">utils_event.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="utils_increment_macro.h">utils_increment_macro.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="utils_list.h">utils_list.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="utils_repeat_macro.h">utils_repeat_macro.h</ProjectItem>
+          </Folder>
+          <Folder Name="src" TargetFolderName="src">
+            <ProjectItem ReplaceParameters="true" TargetFileName="utils_assert.c">utils_assert.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="utils_event.c">utils_event.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="utils_list.c">utils_list.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="utils_syscalls.c">utils_syscalls.c</ProjectItem>
+          </Folder>
+        </Folder>
+      </Folder>
+      <Folder Name="hpl" TargetFolderName="hpl">
+        <Folder Name="core" TargetFolderName="core">
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_core_m7_base.c">hpl_core_m7_base.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_core_port.h">hpl_core_port.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_init.c">hpl_init.c</ProjectItem>
+        </Folder>
+        <Folder Name="pio" TargetFolderName="pio">
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_gpio_base.h">hpl_gpio_base.h</ProjectItem>
+        </Folder>
+        <Folder Name="pmc" TargetFolderName="pmc">
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_pmc.c">hpl_pmc.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_pmc.h">hpl_pmc.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_sleep.c">hpl_sleep.c</ProjectItem>
+        </Folder>
+        <Folder Name="systick" TargetFolderName="systick">
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_systick_ARMv7_base.c">hpl_systick_ARMv7_base.c</ProjectItem>
+        </Folder>
+        <Folder Name="tc" TargetFolderName="tc">
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_tc.c">hpl_tc.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_tc.h">hpl_tc.h</ProjectItem>
+        </Folder>
+        <Folder Name="wdt" TargetFolderName="wdt">
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_wdt.c">hpl_wdt.c</ProjectItem>
+        </Folder>
+        <Folder Name="xdmac" TargetFolderName="xdmac">
+          <ProjectItem ReplaceParameters="true" TargetFileName="hpl_xdmac.c">hpl_xdmac.c</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="hri" TargetFolderName="hri">
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_acc_v71b.h">hri_acc_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_aes_v71b.h">hri_aes_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_afec_v71b.h">hri_afec_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_chipid_v71b.h">hri_chipid_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_dacc_v71b.h">hri_dacc_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_efc_v71b.h">hri_efc_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_gmac_v71b.h">hri_gmac_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_gpbr_v71b.h">hri_gpbr_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_hsmci_v71b.h">hri_hsmci_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_i2sc_v71b.h">hri_i2sc_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_icm_v71b.h">hri_icm_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_isi_v71b.h">hri_isi_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_lockbit_v71b.h">hri_lockbit_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_matrix_v71b.h">hri_matrix_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_mcan_v71b.h">hri_mcan_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_mlb_v71b.h">hri_mlb_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_pio_v71b.h">hri_pio_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_pmc_v71b.h">hri_pmc_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_pwm_v71b.h">hri_pwm_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_qspi_v71b.h">hri_qspi_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_rstc_v71b.h">hri_rstc_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_rswdt_v71b.h">hri_rswdt_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_rtc_v71b.h">hri_rtc_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_rtt_v71b.h">hri_rtt_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_sdramc_v71b.h">hri_sdramc_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_smc_v71b.h">hri_smc_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_spi_v71b.h">hri_spi_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_ssc_v71b.h">hri_ssc_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_supc_v71b.h">hri_supc_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_tc_v71b.h">hri_tc_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_trng_v71b.h">hri_trng_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_twihs_v71b.h">hri_twihs_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_uart_v71b.h">hri_uart_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_usart_v71b.h">hri_usart_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_usbhs_v71b.h">hri_usbhs_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_utmi_v71b.h">hri_utmi_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_v71b.h">hri_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_wdt_v71b.h">hri_wdt_v71b.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hri_xdmac_v71b.h">hri_xdmac_v71b.h</ProjectItem>
+      </Folder>
+      <Folder Name="thirdparty" TargetFolderName="thirdparty">
+        <Folder Name="RTOS" TargetFolderName="RTOS">
+          <Folder Name="freertos" TargetFolderName="freertos">
+            <Folder Name="FreeRTOSV10.0.0" TargetFolderName="FreeRTOSV10.0.0">
+              <Folder Name="License" TargetFolderName="License">
+                <ProjectItem ReplaceParameters="true" TargetFileName="license.txt">license.txt</ProjectItem>
+              </Folder>
+              <Folder Name="Source" TargetFolderName="Source">
+                <Folder Name="include" TargetFolderName="include">
+                  <ProjectItem ReplaceParameters="true" TargetFileName="croutine.h">croutine.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="deprecated_definitions.h">deprecated_definitions.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="event_groups.h">event_groups.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="FreeRTOS.h">FreeRTOS.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="list.h">list.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="message_buffer.h">message_buffer.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="mpu_wrappers.h">mpu_wrappers.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="portable.h">portable.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="projdefs.h">projdefs.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="queue.h">queue.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="semphr.h">semphr.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="stack_macros.h">stack_macros.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="StackMacros.h">StackMacros.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="stdint.readme">stdint.readme</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="stream_buffer.h">stream_buffer.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="task.h">task.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="timers.h">timers.h</ProjectItem>
+                </Folder>
+                <Folder Name="portable" TargetFolderName="portable">
+                  <Folder Name="GCC" TargetFolderName="GCC">
+                    <Folder Name="ARM_CM7" TargetFolderName="ARM_CM7">
+                      <ProjectItem ReplaceParameters="true" TargetFileName="port.c">port.c</ProjectItem>
+                      <ProjectItem ReplaceParameters="true" TargetFileName="portmacro.h">portmacro.h</ProjectItem>
+                    </Folder>
+                  </Folder>
+                  <Folder Name="MemMang" TargetFolderName="MemMang">
+                    <ProjectItem ReplaceParameters="true" TargetFileName="heap_1.c">heap_1.c</ProjectItem>
+                  </Folder>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="readme.txt">readme.txt</ProjectItem>
+                </Folder>
+                <ProjectItem ReplaceParameters="true" TargetFileName="croutine.c">croutine.c</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="event_groups.c">event_groups.c</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="list.c">list.c</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="queue.c">queue.c</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="readme.txt">readme.txt</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="stream_buffer.c">stream_buffer.c</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="tasks.c">tasks.c</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="timers.c">timers.c</ProjectItem>
+              </Folder>
+              <ProjectItem ReplaceParameters="true" TargetFileName="readme.txt">readme.txt</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="rtos_port.c">rtos_port.c</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="rtos_port.h">rtos_port.h</ProjectItem>
+            </Folder>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hal_rtos.h">hal_rtos.h</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="atmel_start.c">atmel_start.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="atmel_start.h">atmel_start.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="atmel_start_pins.h">atmel_start_pins.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="driver_init.c">driver_init.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="driver_init.h">driver_init.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="main.c">main.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="rtos_start.c">rtos_start.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="rtos_start.h">rtos_start.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

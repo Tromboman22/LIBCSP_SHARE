@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ACB0364D-BDAB-3A57-943D-17E1090693F4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>csp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">csp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">csp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">csp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">csp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">csp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">csp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">csp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">csp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\include;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/lib/libcsp-develop/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/lib/libcsp-develop -BC:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build --check-stamp-file C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\4.0.2\CMakeCCompiler.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\4.0.2\CMakeCXXCompiler.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\4.0.2\CMakeRCCompiler.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\4.0.2\CMakeSystem.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\csp_autoconfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/lib/libcsp-develop/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/lib/libcsp-develop -BC:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build --check-stamp-file C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\4.0.2\CMakeCCompiler.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\4.0.2\CMakeCXXCompiler.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\4.0.2\CMakeRCCompiler.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\4.0.2\CMakeSystem.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\csp_autoconfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/lib/libcsp-develop/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/lib/libcsp-develop -BC:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build --check-stamp-file C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\4.0.2\CMakeCCompiler.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\4.0.2\CMakeCXXCompiler.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\4.0.2\CMakeRCCompiler.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\4.0.2\CMakeSystem.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\csp_autoconfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/lib/libcsp-develop/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/lib/libcsp-develop -BC:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build --check-stamp-file C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\4.0.2\CMakeCCompiler.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\4.0.2\CMakeCXXCompiler.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\4.0.2\CMakeRCCompiler.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\4.0.2\CMakeSystem.cmake;C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\csp_autoconfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_bridge.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_buffer.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_conn.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_crc32.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_debug.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_dedup.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_id.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_iflist.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_init.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_io.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_port.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_qfifo.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_route.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_service_handler.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_services.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_sfp.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_hex_dump.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_promisc.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_rdp.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);_DEFAULT_SOURCE</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);_DEFAULT_SOURCE</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);_DEFAULT_SOURCE</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);_DEFAULT_SOURCE</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\csp_rdp_queue.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\crypto\csp_hmac.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\crypto\csp_sha1.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\drivers\usart\usart_kiss.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\interfaces\csp_if_lo.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\interfaces\csp_if_kiss.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\interfaces\csp_if_i2c.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\interfaces\csp_if_tun.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\interfaces\csp_if_can.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\interfaces\csp_if_can_pbuf.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\interfaces\csp_if_eth.c" />
+    <ClCompile Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\lib\libcsp-develop\src\interfaces\csp_if_eth_pbuf.c" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\ZERO_CHECK.vcxproj">
+      <Project>{FFC089CE-1D05-3BB3-B2DE-16817C83C5FE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

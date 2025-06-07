@@ -1,0 +1,12 @@
+C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/CMakeFiles/csp.dir
+C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/CMakeFiles/INSTALL.dir
+C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/src/CMakeFiles/INSTALL.dir
+C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/src/arch/CMakeFiles/INSTALL.dir
+C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/src/crypto/CMakeFiles/INSTALL.dir
+C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/src/drivers/CMakeFiles/INSTALL.dir
+C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/src/interfaces/CMakeFiles/INSTALL.dir
+C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/unittests/CMakeFiles/INSTALL.dir
+C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/examples/CMakeFiles/INSTALL.dir
+C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/samples/CMakeFiles/INSTALL.dir

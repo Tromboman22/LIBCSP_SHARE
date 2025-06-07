@@ -1,0 +1,15 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/cmake_install.cmake",
+		"C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/src/cmake_install.cmake",
+		"C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/src/arch/cmake_install.cmake",
+		"C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/src/crypto/cmake_install.cmake",
+		"C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/src/drivers/cmake_install.cmake",
+		"C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/src/interfaces/cmake_install.cmake",
+		"C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/unittests/cmake_install.cmake",
+		"C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/examples/cmake_install.cmake",
+		"C:/Users/samue/OneDrive/Documents/PlatformIO/Projects/LIBCSP3/build/samples/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\samue\OneDrive\Documents\PlatformIO\Projects\LIBCSP3\build\CMakeFiles\d07047909d0bdc53283608b697817952\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{50232EF2-9C51-3EBD-814A-E3810E566604}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
