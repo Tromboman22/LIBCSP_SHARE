@@ -1,4 +1,4 @@
-#if (CSP_ZEPHYR)
+#if (CSP_ZEPHYR) // zephyr depencency
 
 #include "csp/drivers/usart.h"
 
