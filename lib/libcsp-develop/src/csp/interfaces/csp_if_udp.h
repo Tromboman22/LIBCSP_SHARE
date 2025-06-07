@@ -3,7 +3,8 @@
  *
  * **Description:** UDP interface.
  ****************************************************************************/
-#pragma once
+#if (LIBYAML_FOUND) //remove this if yaml is included in the project
+ #pragma once
 
 #include <csp/csp.h>
 
@@ -43,4 +44,6 @@ void csp_if_udp_init(csp_iface_t * iface, csp_if_udp_conf_t * ifconf);
 
 #ifdef __cplusplus
 }
+#endif
+
 #endif

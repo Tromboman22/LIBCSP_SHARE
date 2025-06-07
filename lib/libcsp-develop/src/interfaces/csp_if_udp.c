@@ -1,3 +1,5 @@
+#if (LIBYAML_FOUND) //remove this if yaml is included in the project
+
 #include <csp/interfaces/csp_if_udp.h>
 
 #include <csp/csp_debug.h>
@@ -137,3 +139,5 @@ void csp_if_udp_init(csp_iface_t * iface, csp_if_udp_conf_t * ifconf) {
 	iface->nexthop = csp_if_udp_tx,
 	csp_iflist_add(iface);
 }
+
+#endif
